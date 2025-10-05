@@ -7,8 +7,8 @@ from langchain_core.messages import HumanMessage, AIMessage  # For message forma
 # --- 1. Page Configuration and Title ---
 
 # Set the title and a caption for the web page
-st.title("💬 LangGraph ReAct Chatbot")
-st.caption("A simple and friendly chat using LangGraph with Google's Gemini model")
+st.title("💬 AI Agent ReAct Chatbot by Fatwa")
+st.caption("A simple and friendly chat support by LangGraph with Google's Gemini model ❇️")
 
 # --- 2. Sidebar for Settings ---
 
@@ -23,7 +23,7 @@ with st.sidebar:
     
     # Create a button to reset the conversation.
     # 'help' provides a tooltip that appears when hovering over the button.
-    reset_button = st.button("Reset Conversation", help="Clear all messages and start fresh")
+    reset_button = st.button("Clear Conversation", help="Clear all messages and start fresh")
 
 # --- 3. API Key and Agent Initialization ---
 
